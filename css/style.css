@@ -320,7 +320,7 @@ a:focus {
 
 
 
-.product_section .zoom {
+.zoom {
   width:100%;
   height: 1000px;
   position:relative;
@@ -330,7 +330,7 @@ a:focus {
 }
 
 
-.product_section .zoom:before{
+.zoom:before{
 
   position:absolute;
   bottom:0;
@@ -341,8 +341,7 @@ a:focus {
 
 
 }
-
-.product_section .zoom #layer1{
+.zoom #layer1{
 
   position:absolute;
   top:40%;
@@ -353,7 +352,7 @@ a:focus {
   transform: translateY(30%);
   z-index:9;
 }
-.product_section .zoom #layer2{
+.zoom #layer2{
   position:absolute;
 
  left:-15%;
@@ -362,7 +361,7 @@ a:focus {
  
   z-index:10;
 }
-.product_section .zoom #layer3{
+.zoom #layer3{
   position:absolute;
   left:-5%;
   width:40%;
@@ -371,7 +370,7 @@ a:focus {
   /* transform: translateY(300%); */
   z-index:9;
 }
-.product_section .zoom #layer4{
+.zoom #layer4{
   position:absolute;
 
  left:10;
@@ -379,7 +378,7 @@ a:focus {
   transform: translateX(48%);
   z-index:8;
 }
-.product_section .zoom #text{
+.zoom #text{
   top:10%;
   position:absolute;
   right:1%;
